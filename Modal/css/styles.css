@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  background: #DECDC3;
+}
+
+/*styling for the container of the button to be clicked*/
+
+.buttonDivContainer {
+  text-align: center;
+  margin: 8em;
+}
+
+/*default styling for the modal container*/
+
+.modalHolder {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  display: none;
+}
+
+/*styling for the modal when it shows up*/
+
+.modal {
+  background: #D6A726;
+  padding: 1em;
+}
+
+/*styling for the modal holder when it is revealed via jquery*/
+
+.modalHolder.revealed {
+  display: block;
+}
