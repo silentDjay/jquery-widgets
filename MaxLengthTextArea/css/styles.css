@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background: #FFCE65;
+  font-family: Courier, "Lucida Console", monospace;
+}
+
+/*Styling for all field labels*/
+
+label {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: .3em;
+  font-size: 1.3em;
+}
+
+/*Styling for all fields*/
+
+.field {
+  font-family: Courier, "Lucida Console", monospace;
+  outline: none;
+  background-color: #5CBFEB;
+  font-size: 1.4em;
+}
+
+/*Styling for placeholders in text fields*/
+
+::-webkit-input-placeholder {
+    color: #fff;
+    font-style: italic;
+}
+
+/*Styling for all textarea fields*/
+
+textarea {
+  min-height: 2em;
+  resize: none;
+}
+
+/*Styling for all dropdown fields*/
+
+select {
+  width: 40%;
+}

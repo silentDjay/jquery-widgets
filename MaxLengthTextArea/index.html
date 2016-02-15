@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <meta charset="utf-8">
+    <title>Hello, my name is Modal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div id="fullNameDiv">
+      <label for="fullName">Full Name</label>
+      <input class="field textField" type="text" id="fullName" placeholder="Jeremy Smith">
+    </div>
+    <div id="nameCommentsDiv">
+      <label for="nameComments">Tell us about your name</label>
+      <textarea maxsize="25" class="field textAreas" id="nameComments" placeholder="maxsize = 25"></textarea>
+    </div>
+    <div>
+      <label for="chooseWich">What's for Lunch?</label>
+      <select class="field" id="chooseWich">
+        <option value="" selected disabled>Select a Sandwich</option>
+        <option>
+          Dagwood
+        </option>
+        <option>
+          Reuben
+        </option>
+        <option>
+          Egg Salad
+        </option>
+      </select>
+    </div>
+    <div id="commentsDiv">
+      <label for="comments">Speak Your Mind</label>
+      <textarea class="field textAreas" id="comments" placeholder="maxsize = 50" maxsize="50"></textarea>
+    </div>
+    <div id="clarifyCommentsDiv">
+      <label for="clarifyComments">Please clarify your comments</label>
+      <textarea class="field textAreas" id="clarifyComments" placeholder="no maxsize attribute"></textarea>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
