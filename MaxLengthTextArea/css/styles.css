@@ -13,12 +13,20 @@ label {
   font-size: 1.3em;
 }
 
+/*Styling for hidden 'counter' text*/
+
+.remainingText {
+  display:none
+}
+
 /*Styling for all fields*/
 
 .field {
+  width: 40%;
   font-family: Courier, "Lucida Console", monospace;
   outline: none;
   background-color: #5CBFEB;
+  border: solid 2px black;
   font-size: 1.4em;
 }
 
