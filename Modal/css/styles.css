@@ -27,7 +27,7 @@ body {
 
 .modal {
   background: #D6A726;
-  padding: 1em;
+  padding: 6em;
 }
 
 /*styling for the modal holder when it is revealed via jquery*/
